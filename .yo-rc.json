@@ -1,0 +1,9 @@
+{
+  "nlx-generator-prj": {
+    "projectName": "nlx-eslint-config",
+    "isGithub": true,
+    "description": "my config for eslint",
+    "projectType": "javascript",
+    "shortName": "eslintc"
+  }
+}

@@ -1,0 +1,8 @@
+name: nlx-eslint-config
+root: /home/user/src/nlx-eslint-config
+pre: emacs --eval "(setq server-name \"nlx-eslint-config\")" --daemon
+startup_window: editor
+windows:
+  - none: ''
+  - editor: emacsclient -s nlx-eslint-config ./
+  - zsh: ''

@@ -1,0 +1,15 @@
+{
+  "license": "MIT",
+  "author": "nonlux <nonluxi@gmail.com>",
+  "scripts": {
+    "postinstall": "./npm-post.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nonlux/nlx-eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nonlux/nlx-eslint-config/issues"
+  },
+  "homepage": "https://github.com/nonlux/nlx-eslint-config"
+}
