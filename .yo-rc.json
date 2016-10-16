@@ -4,6 +4,7 @@
     "isGithub": true,
     "description": "my config for eslint",
     "projectType": "javascript",
-    "shortName": "eslintc"
+    "shortName": "eslintc",
+    "isBabel": false
   }
 }
