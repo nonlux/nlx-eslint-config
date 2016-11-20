@@ -1,4 +1,6 @@
 #!/bin/bash
 
-ln  config/eslint/.eslintrc.js  .eslintrc.js
-ln  config/eslint/.eslintignore.js  .eslintignore.js
+echo $MODULE_PATH
+echo $DEST_PATH
+ln  $MODULE_PATH/.eslintrc.js  $DEST_PATH/.eslintrc.js
+ln  $MODULE_PATH/.eslintignore.js  $DEST_PATH/.eslintignore.js
