@@ -1,6 +1,7 @@
 #!/bin/bash
 
+echo "tada"
 echo $MODULE_PATH
 echo $DEST_PATH
 ln  $MODULE_PATH/.eslintrc.js  $DEST_PATH/.eslintrc.js
-ln  $MODULE_PATH/.eslintignore.js  $DEST_PATH/.eslintignore.js
+ln  $MODULE_PATH/.eslintignore  $DEST_PATH/.eslintignore
