@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ln  config/eslint/.eslintrc.js  .eslintrc.js
+ln  config/eslint/.eslintignore.js  .eslintignore.js
