@@ -3,5 +3,7 @@
 echo "tada"
 echo $MODULE_PATH
 echo $DEST_PATH
-ln  $MODULE_PATH/.eslintrc.js  $DEST_PATH/.eslintrc.js
+rm $DEST_PATH/.eslintrc.js
+rm $DEST_PATH/.eslintignore
+ln  $MODULE_PATH/.eslintrc.js   $DEST_PATH/.eslintrc.js
 ln  $MODULE_PATH/.eslintignore  $DEST_PATH/.eslintignore
