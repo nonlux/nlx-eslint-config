@@ -10,6 +10,7 @@ module.exports = {
     'flowtype-errors/show-errors': 2,
     'react/jsx-filename-extension': 0,
     'react/no-multi-comp': 0,
+    'react/jsx-space-before-closing': 0,
     'import/default': 0,
     'import/no-duplicates': 0,
     'import/named': 0,
